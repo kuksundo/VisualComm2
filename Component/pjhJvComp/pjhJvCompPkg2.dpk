@@ -1,0 +1,53 @@
+package pjhJvCompPkg2;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE VER_2}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vclimg,
+  Jcl,
+  JvCore,
+  JvSystem,
+  JvStdCtrls,
+  JvControls,
+  JvMM,
+  A2_pjhCompSharedPkg2,
+  A3_pjhDMSharePackage2;
+
+contains
+  pjhJvCompConst in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhJvComp\pjhJvCompConst.pas',
+  pjhJvCompList in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhJvComp\pjhJvCompList.pas',
+  pjhTJvGIFAnimator in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhJvComp\pjhTJvGIFAnimator.pas',
+  pjhTJvTransparentButton in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhJvComp\pjhTJvTransparentButton.pas',
+  pjhTJvTransparentButtonConst in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhJvComp\pjhTJvTransparentButtonConst.pas',
+  UnitTransparentBtnInterface in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhJvComp\UnitTransparentBtnInterface.pas',
+  pjhTJvLabel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhJvComp\pjhTJvLabel.pas';
+
+end.

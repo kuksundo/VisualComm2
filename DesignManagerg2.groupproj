@@ -1,0 +1,276 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{97F31AA5-0148-4859-9BD2-3436BD605695}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Component\A1_pjhCommonUnit4ExtLib2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\A2_pjhCompSharedPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\A3_pjhDMSharePackage2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\F1_pjhPackageUnits2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\F2_pjhPackageUnits2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\ExtLib_D_DXE5_2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\ExtLib_R_DXE5_2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhDelphiStandardComp\pjhDelphiStandardPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhJvComp\pjhJvCompPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhIOComp\pjhIOCompSharedPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhIOComp\pjhIOCompStdPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhIOComp\pjhIOCompProPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhIOComp\pjhIOCompPlotPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhxIOComp\xIOComp2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhxIOComp\pjhxIOCompPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhTMSComp\pjhTMSCompPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhTMSComp\pjhTMSSmoothCompPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhCyComp\pjhCyCompPkg2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\pjhOIPackage2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\DesignManagerDock2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\HiMECS2\Utility\HiMECS_Watch2\HiMECSWatch2_NoBpl.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="A1_pjhCommonUnit4ExtLib2">
+        <MSBuild Projects="Component\A1_pjhCommonUnit4ExtLib2.dproj"/>
+    </Target>
+    <Target Name="A1_pjhCommonUnit4ExtLib2:Clean">
+        <MSBuild Projects="Component\A1_pjhCommonUnit4ExtLib2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="A1_pjhCommonUnit4ExtLib2:Make">
+        <MSBuild Projects="Component\A1_pjhCommonUnit4ExtLib2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="A2_pjhCompSharedPkg2">
+        <MSBuild Projects="Component\A2_pjhCompSharedPkg2.dproj"/>
+    </Target>
+    <Target Name="A2_pjhCompSharedPkg2:Clean">
+        <MSBuild Projects="Component\A2_pjhCompSharedPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="A2_pjhCompSharedPkg2:Make">
+        <MSBuild Projects="Component\A2_pjhCompSharedPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="A3_pjhDMSharePackage2">
+        <MSBuild Projects="Component\A3_pjhDMSharePackage2.dproj"/>
+    </Target>
+    <Target Name="A3_pjhDMSharePackage2:Clean">
+        <MSBuild Projects="Component\A3_pjhDMSharePackage2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="A3_pjhDMSharePackage2:Make">
+        <MSBuild Projects="Component\A3_pjhDMSharePackage2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="F1_pjhPackageUnits2">
+        <MSBuild Projects="Component\F1_pjhPackageUnits2.dproj"/>
+    </Target>
+    <Target Name="F1_pjhPackageUnits2:Clean">
+        <MSBuild Projects="Component\F1_pjhPackageUnits2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="F1_pjhPackageUnits2:Make">
+        <MSBuild Projects="Component\F1_pjhPackageUnits2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="F2_pjhPackageUnits2">
+        <MSBuild Projects="Component\F2_pjhPackageUnits2.dproj"/>
+    </Target>
+    <Target Name="F2_pjhPackageUnits2:Clean">
+        <MSBuild Projects="Component\F2_pjhPackageUnits2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="F2_pjhPackageUnits2:Make">
+        <MSBuild Projects="Component\F2_pjhPackageUnits2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExtLib_D_DXE5_2">
+        <MSBuild Projects="Component\ExtLib_D_DXE5_2.dproj"/>
+    </Target>
+    <Target Name="ExtLib_D_DXE5_2:Clean">
+        <MSBuild Projects="Component\ExtLib_D_DXE5_2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExtLib_D_DXE5_2:Make">
+        <MSBuild Projects="Component\ExtLib_D_DXE5_2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExtLib_R_DXE5_2">
+        <MSBuild Projects="Component\ExtLib_R_DXE5_2.dproj"/>
+    </Target>
+    <Target Name="ExtLib_R_DXE5_2:Clean">
+        <MSBuild Projects="Component\ExtLib_R_DXE5_2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExtLib_R_DXE5_2:Make">
+        <MSBuild Projects="Component\ExtLib_R_DXE5_2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhDelphiStandardPkg2">
+        <MSBuild Projects="Component\pjhDelphiStandardComp\pjhDelphiStandardPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhDelphiStandardPkg2:Clean">
+        <MSBuild Projects="Component\pjhDelphiStandardComp\pjhDelphiStandardPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhDelphiStandardPkg2:Make">
+        <MSBuild Projects="Component\pjhDelphiStandardComp\pjhDelphiStandardPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhJvCompPkg2">
+        <MSBuild Projects="Component\pjhJvComp\pjhJvCompPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhJvCompPkg2:Clean">
+        <MSBuild Projects="Component\pjhJvComp\pjhJvCompPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhJvCompPkg2:Make">
+        <MSBuild Projects="Component\pjhJvComp\pjhJvCompPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhIOCompSharedPkg2">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompSharedPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhIOCompSharedPkg2:Clean">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompSharedPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhIOCompSharedPkg2:Make">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompSharedPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhIOCompStdPkg2">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompStdPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhIOCompStdPkg2:Clean">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompStdPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhIOCompStdPkg2:Make">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompStdPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhIOCompProPkg2">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompProPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhIOCompProPkg2:Clean">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompProPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhIOCompProPkg2:Make">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompProPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhIOCompPlotPkg2">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompPlotPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhIOCompPlotPkg2:Clean">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompPlotPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhIOCompPlotPkg2:Make">
+        <MSBuild Projects="Component\pjhIOComp\pjhIOCompPlotPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="xIOComp2">
+        <MSBuild Projects="Component\pjhxIOComp\xIOComp2.dproj"/>
+    </Target>
+    <Target Name="xIOComp2:Clean">
+        <MSBuild Projects="Component\pjhxIOComp\xIOComp2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="xIOComp2:Make">
+        <MSBuild Projects="Component\pjhxIOComp\xIOComp2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhxIOCompPkg2">
+        <MSBuild Projects="Component\pjhxIOComp\pjhxIOCompPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhxIOCompPkg2:Clean">
+        <MSBuild Projects="Component\pjhxIOComp\pjhxIOCompPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhxIOCompPkg2:Make">
+        <MSBuild Projects="Component\pjhxIOComp\pjhxIOCompPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhTMSCompPkg2">
+        <MSBuild Projects="Component\pjhTMSComp\pjhTMSCompPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhTMSCompPkg2:Clean">
+        <MSBuild Projects="Component\pjhTMSComp\pjhTMSCompPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhTMSCompPkg2:Make">
+        <MSBuild Projects="Component\pjhTMSComp\pjhTMSCompPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhTMSSmoothCompPkg2">
+        <MSBuild Projects="Component\pjhTMSComp\pjhTMSSmoothCompPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhTMSSmoothCompPkg2:Clean">
+        <MSBuild Projects="Component\pjhTMSComp\pjhTMSSmoothCompPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhTMSSmoothCompPkg2:Make">
+        <MSBuild Projects="Component\pjhTMSComp\pjhTMSSmoothCompPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhCyCompPkg2">
+        <MSBuild Projects="Component\pjhCyComp\pjhCyCompPkg2.dproj"/>
+    </Target>
+    <Target Name="pjhCyCompPkg2:Clean">
+        <MSBuild Projects="Component\pjhCyComp\pjhCyCompPkg2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhCyCompPkg2:Make">
+        <MSBuild Projects="Component\pjhCyComp\pjhCyCompPkg2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pjhOIPackage2">
+        <MSBuild Projects="Component\pjhOIPackage2.dproj"/>
+    </Target>
+    <Target Name="pjhOIPackage2:Clean">
+        <MSBuild Projects="Component\pjhOIPackage2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pjhOIPackage2:Make">
+        <MSBuild Projects="Component\pjhOIPackage2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DesignManagerDock2">
+        <MSBuild Projects="Component\DesignManagerDock2.dproj"/>
+    </Target>
+    <Target Name="DesignManagerDock2:Clean">
+        <MSBuild Projects="Component\DesignManagerDock2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesignManagerDock2:Make">
+        <MSBuild Projects="Component\DesignManagerDock2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HiMECSWatch2_NoBpl">
+        <MSBuild Projects="..\HiMECS2\Utility\HiMECS_Watch2\HiMECSWatch2_NoBpl.dproj"/>
+    </Target>
+    <Target Name="HiMECSWatch2_NoBpl:Clean">
+        <MSBuild Projects="..\HiMECS2\Utility\HiMECS_Watch2\HiMECSWatch2_NoBpl.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HiMECSWatch2_NoBpl:Make">
+        <MSBuild Projects="..\HiMECS2\Utility\HiMECS_Watch2\HiMECSWatch2_NoBpl.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="A1_pjhCommonUnit4ExtLib2;A2_pjhCompSharedPkg2;A3_pjhDMSharePackage2;F1_pjhPackageUnits2;F2_pjhPackageUnits2;ExtLib_D_DXE5_2;ExtLib_R_DXE5_2;pjhDelphiStandardPkg2;pjhJvCompPkg2;pjhIOCompSharedPkg2;pjhIOCompStdPkg2;pjhIOCompProPkg2;pjhIOCompPlotPkg2;xIOComp2;pjhxIOCompPkg2;pjhTMSCompPkg2;pjhTMSSmoothCompPkg2;pjhCyCompPkg2;pjhOIPackage2;DesignManagerDock2;HiMECSWatch2_NoBpl"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="A1_pjhCommonUnit4ExtLib2:Clean;A2_pjhCompSharedPkg2:Clean;A3_pjhDMSharePackage2:Clean;F1_pjhPackageUnits2:Clean;F2_pjhPackageUnits2:Clean;ExtLib_D_DXE5_2:Clean;ExtLib_R_DXE5_2:Clean;pjhDelphiStandardPkg2:Clean;pjhJvCompPkg2:Clean;pjhIOCompSharedPkg2:Clean;pjhIOCompStdPkg2:Clean;pjhIOCompProPkg2:Clean;pjhIOCompPlotPkg2:Clean;xIOComp2:Clean;pjhxIOCompPkg2:Clean;pjhTMSCompPkg2:Clean;pjhTMSSmoothCompPkg2:Clean;pjhCyCompPkg2:Clean;pjhOIPackage2:Clean;DesignManagerDock2:Clean;HiMECSWatch2_NoBpl:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="A1_pjhCommonUnit4ExtLib2:Make;A2_pjhCompSharedPkg2:Make;A3_pjhDMSharePackage2:Make;F1_pjhPackageUnits2:Make;F2_pjhPackageUnits2:Make;ExtLib_D_DXE5_2:Make;ExtLib_R_DXE5_2:Make;pjhDelphiStandardPkg2:Make;pjhJvCompPkg2:Make;pjhIOCompSharedPkg2:Make;pjhIOCompStdPkg2:Make;pjhIOCompProPkg2:Make;pjhIOCompPlotPkg2:Make;xIOComp2:Make;pjhxIOCompPkg2:Make;pjhTMSCompPkg2:Make;pjhTMSSmoothCompPkg2:Make;pjhCyCompPkg2:Make;pjhOIPackage2:Make;DesignManagerDock2:Make;HiMECSWatch2_NoBpl:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

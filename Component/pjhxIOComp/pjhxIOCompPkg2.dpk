@@ -1,0 +1,57 @@
+package pjhxIOCompPkg2;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE VER_2}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  A2_pjhCompSharedPkg2,
+  xIOComp2;
+
+contains
+  pjhxIOCompList in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhxIOCompList.pas',
+  pjhxIOCompConst in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhxIOCompConst.pas',
+  pjhiTank_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiTank_pjh.pas',
+  pjhiValve_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiValve_pjh.pas',
+  pjhiMotor_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiMotor_pjh.pas',
+  pjhiPipe_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiPipe_pjh.pas',
+  pjhiPipeJoint_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiPipeJoint_pjh.pas',
+  pjhiLedArrow_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiLedArrow_pjh.pas',
+  pjhjvGIFAnimator_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhjvGIFAnimator_pjh.pas',
+  pjhiPanel_jvGIFAni_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiPanel_jvGIFAni_pjh.pas',
+  UnitGPFunction in '..\..\..\..\..\..\..\project\common\UnitGPFunction.pas',
+  pjhiValve2_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiValve2_pjh.pas',
+  pjhPipeFlowInterface in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhPipeFlowInterface.pas',
+  pjhiTank2_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiTank2_pjh.pas',
+  pjhiPipeJoint2_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiPipeJoint2_pjh.pas',
+  pjhiPipe2_pjh in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\pjhiPipe2_pjh.pas',
+  UnitRevFlowCommon in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\UnitRevFlowCommon.pas',
+  UnitRevFlowInterface in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhxIOComp\UnitRevFlowInterface.pas',
+  UnitVCLUtil in '..\..\..\..\Common\UnitVCLUtil.pas';
+
+end.

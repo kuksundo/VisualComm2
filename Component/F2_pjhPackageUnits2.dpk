@@ -1,0 +1,39 @@
+package F2_pjhPackageUnits2;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl;
+
+contains
+  mormot.core.base in '..\..\..\OpenSrc\lib\mORMot2-master\src\core\mormot.core.base.pas',
+  mormot.core.json in '..\..\..\OpenSrc\lib\mORMot2-master\src\core\mormot.core.json.pas',
+  mormot.core.unicode in '..\..\..\OpenSrc\lib\mORMot2-master\src\core\mormot.core.unicode.pas',
+  mormot.crypt.core in '..\..\..\OpenSrc\lib\mORMot2-master\src\crypt\mormot.crypt.core.pas';
+
+end.

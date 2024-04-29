@@ -1,0 +1,66 @@
+package pjhIOCompStdPkg2;
+
+{$R *.res}
+{$R '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiInstrumentPackReg.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE VER_2}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vclimg,
+  IocompDelphiXE5,
+  pjhIOCompSharedPkg2;
+
+contains
+  pjhiAngularGauge in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiAngularGauge.pas',
+  pjhIOCompStdList in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhIOCompStdList.pas',
+  pjhiAnalogDisplay in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiAnalogDisplay.pas',
+  pjhiAnalogOutPut in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiAnalogOutPut.pas',
+  pjhiEdit in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiEdit.pas',
+  pjhiGradient in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiGradient.pas',
+  pjhiIntegerOutput in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiIntegerOutput.pas',
+  pjhiKnob in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiKnob.pas',
+  pjhiLabel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLabel.pas',
+  pjhiLedBar in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLedBar.pas',
+  pjhiLedRectangle in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLedRectangle.pas',
+  pjhiLedRound in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLedRound.pas',
+  pjhiLedSpiral in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLedSpiral.pas',
+  pjhiLinearGauge in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLinearGauge.pas',
+  pjhiOdometer in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiOdometer.pas',
+  pjhiSevenSegmentAnalog in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSevenSegmentAnalog.pas',
+  pjhiSevenSegmentBinary in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSevenSegmentBinary.pas',
+  pjhiSevenSegmentHexaDecimal in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSevenSegmentHexaDecimal.pas',
+  pjhiSevenSegmentInteger in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSevenSegmentInteger.pas',
+  pjhiSlider in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSlider.pas',
+  pjhiSwitchLed in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSwitchLed.pas',
+  pjhiSwitchPanel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSwitchPanel.pas',
+  pjhiSwitchRotary in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSwitchRotary.pas',
+  pjhiSwitchSlider in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSwitchSlider.pas',
+  pjhiSwitchToggle in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSwitchToggle.pas',
+  pjhiThermoMeter in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiThermoMeter.pas';
+
+end.

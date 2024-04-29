@@ -1,0 +1,59 @@
+package pjhIOCompProPkg2;
+
+{$R *.res}
+{$R '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiProfessionalReg.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE VER_2}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  IocompDelphiXE5,
+  A2_pjhCompSharedPkg2;
+
+contains
+  pjhIOCompProList in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhIOCompProList.pas',
+  pjhIOCompProConst in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhIOCompProConst.pas',
+  pjhiAngularLogGauge in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiAngularLogGauge.pas',
+  pjhiCompass in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiCompass.pas',
+  pjhiDualCompass in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiDualCompass.pas',
+  pjhiImageDisplay in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiImageDisplay.pas',
+  pjhiLCDMatrix in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLCDMatrix.pas',
+  pjhiLedArrow in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLedArrow.pas',
+  pjhiLedDiamond in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLedDiamond.pas',
+  pjhiLogGauge in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiLogGauge.pas',
+  pjhiMotor in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiMotor.pas',
+  pjhiPanel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiPanel.pas',
+  pjhiPipe in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiPipe.pas',
+  pjhiPipeJoint in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiPipeJoint.pas',
+  pjhiRotationDisplay in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiRotationDisplay.pas',
+  pjhiSlidingScale in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSlidingScale.pas',
+  pjhiSwitchLever in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSwitchLever.pas',
+  pjhiSwitchRocker in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiSwitchRocker.pas',
+  pjhiTank in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiTank.pas',
+  pjhiValve in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhIOComp\pjhiValve.pas';
+
+end.

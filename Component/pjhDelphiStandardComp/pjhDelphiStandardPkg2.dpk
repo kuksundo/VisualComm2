@@ -1,0 +1,60 @@
+package pjhDelphiStandardPkg2;
+
+{$R *.res}
+{$R '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhDelphiStandard.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE VER_2}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vclimg,
+  Jcl,
+  JvCore,
+  ggbutton,
+  JvSystem,
+  JvCustom,
+  A2_pjhCompSharedPkg2,
+  F2_pjhPackageUnits2;
+
+contains
+  pjhDelphiStandardCompList in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhDelphiStandardCompList.pas',
+  pjhDelphiStandardCompConst in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhDelphiStandardCompConst.pas',
+  pjhTPanel2 in 'pjhTPanel2.pas',
+  pjhTImage in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhTImage.pas',
+  pjhTBevel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhTBevel.pas',
+  pjhTGridPanel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhTGridPanel.pas',
+  pjhTLedPanel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhTLedPanel.pas',
+  pjhTShadowButton in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhTShadowButton.pas',
+  pjhDateTimeLabel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhDateTimeLabel.pas',
+  DateTimeLabelUnit in '..\..\..\..\Component\Vcl\dtlbl\DateTimeLabelUnit.pas',
+  pjhLabel4HiMECS in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhLabel4HiMECS.pas',
+  JHP.Util.Bit in '..\..\..\..\Common\JHP.Util.Bit.pas',
+  pjhBalloonCompIntf in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhDelphiStandardComp\pjhBalloonCompIntf.pas',
+  UnitBalloonConst2 in '..\..\..\HiMECS2\Utility\HiMECS_Watch2\UnitBalloonConst2.pas';
+
+end.

@@ -1,0 +1,54 @@
+package DesignManagerDock2;
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEF_CRYPT_ALL}
+{$DEFINE USEPACKAGES}
+{$DEFINE VER_2}
+{$DEFINE USE_PACKAGE}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  VclSmp,
+  tmsdXE5,
+  DCPXE5,
+  JvGlobus,
+  vclFireDAC,
+  FireDAC,
+  F1_pjhPackageUnits2,
+  F2_pjhPackageUnits2,
+  IndyCore190,
+  IndyProtocols190,
+  IndySystem190,
+  A1_pjhCommonUnit4ExtLib2;
+
+contains
+  WatchConst2 in '..\..\..\..\..\..\project\util\HiMECS\Application\Utility\Watch2\WatchConst2.pas',
+  Watch2Interface in '..\..\..\..\..\..\project\util\HiMECS\Application\Utility\Watch2\common\Watch2Interface.pas',
+  frmDesignManagerDockUnit2 in '..\frmDesignManagerDockUnit2.pas' {frmDesignManagerDock};
+
+end.

@@ -1,0 +1,54 @@
+package pjhTMSSmoothCompPkg2;
+
+{$R *.res}
+{$R '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothCompreg.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE VER_2}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  tmsexdXE5,
+  A2_pjhCompSharedPkg2;
+
+contains
+  pjhTMSSmoothCompList in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhTMSSmoothCompList.pas',
+  pjhTMSSmoothCompConst in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhTMSSmoothCompConst.pas',
+  pjhadvSmoothGauge in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothGauge.pas',
+  pjhadvSmoothLabel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothLabel.pas',
+  pjhadvSmoothPanel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothPanel.pas',
+  pjhadvSmoothTrackBar in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothTrackBar.pas',
+  pjhadvSmoothStatusIndicator in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothStatusIndicator.pas',
+  pjhadvSmoothProgressBar in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothProgressBar.pas',
+  pjhadvSmoothToggleButton in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothToggleButton.pas',
+  pjhadvSmoothLedLabel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothLedLabel.pas',
+  pjhadvSmoothExpanderPanel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothExpanderPanel.pas',
+  pjhadvSmoothExpanderButtonPanel in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothExpanderButtonPanel.pas',
+  pjhadvSmoothTimeLine in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothTimeLine.pas',
+  pjhadvSmoothCalculator in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothCalculator.pas',
+  pjhadvSmoothCalculatorDropDown in '..\..\..\..\..\..\..\project\util\VisualComm\Component\pjhTMSComp\pjhadvSmoothCalculatorDropDown.pas';
+
+end.

@@ -1,0 +1,54 @@
+package xIOComp2;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE VER_2}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  IocompDelphiXE5,
+  CodeSiteExpressPkg,
+  Jcl,
+  JvCore,
+  JvSystem,
+  JvMM;
+
+contains
+  iMotor_smh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iMotor_smh.pas',
+  iPipe_pjh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iPipe_pjh.pas',
+  iPipeJoint_pjh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iPipeJoint_pjh.pas',
+  iTank_smh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iTank_smh.pas',
+  iValve_smh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iValve_smh.pas',
+  UnitPipeData in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\UnitPipeData.pas',
+  UnitJHCustomComponent in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\UnitJHCustomComponent.pas',
+  UnitJHIOCompCommon in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\UnitJHIOCompCommon.pas',
+  UnitJHPositionComponent in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\UnitJHPositionComponent.pas',
+  iLed_pjh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iLed_pjh.pas',
+  iLedArrow_pjh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iLedArrow_pjh.pas',
+  JvGIFAnimator_pjh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\JvGIFAnimator_pjh.pas',
+  iPanel_jvGIFAni_pjh in '..\..\..\..\..\..\..\vcl\pjhComponent\xIOComp\iPanel_jvGIFAni_pjh.pas';
+
+end.
