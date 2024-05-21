@@ -357,6 +357,7 @@ type
     function  GetSelectComponent(var AComponent: TComponentClass):TControlClass;
     procedure MakeComponentPalette;
     procedure DeleteComponentPalette;
+    function GetFolderName4CompImg: string;
 
     procedure GetDispCompNames(List: TStrings);
     procedure GetDispPropNames(List: TStrings);
@@ -450,7 +451,7 @@ implementation
 {$R *.dfm}
 
 uses frmDocInterface, frmConst, About, UtilUnit, pjhOIInterface, UnitStringUtil,
-    Watch2Interface, UnitDFMUtil
+    Watch2Interface, UnitDFMUtil, UnitResourceUtil
     {$IFDEF NOUSE_PACKAGE}
 //    , pjhTPanel
     {$ENDIF}
@@ -2058,6 +2059,11 @@ begin
   Result := ELDesigner1;
 end;
 
+function TfrmDesignManagerDock.GetFolderName4CompImg: string;
+begin
+  Result := ExtractFilePath(Application.ExeName) + 'img\';
+end;
+
 function TfrmDesignManagerDock.GetMainHandle: THandle;
 begin
   Result := Handle;
@@ -2224,6 +2230,7 @@ begin
     CharUpper(ResName);
     ResBitmap.Handle := LoadBitmap(hInstance, ResName);
 
+    //Resource 에 Image가 없으면
     if ResBitmap.Handle = 0 then
     begin
 {$IFDEF USE_PACKAGE}
@@ -2237,6 +2244,11 @@ begin
       end;
 
       if ResBitmap.Handle = 0 then //Pacakage를 뒤져도 비트맵이 없으면 Default Image
+{$ELSE}
+      //Bitmap이 있는 폴더명 가져오기: ComponentName = Component Class Name
+      ComponentName := GetFolderName4CompImg() + ComponentName + '.bmp';
+      //폴더 내의 Image검색 - file이 존재하면 True 반환 = 존재하지 않으면 Default image load
+      if not GetBitmapFromFileName(ComponentName, ResBitmap) then
 {$ENDIF}
         ResBitmap.Handle := LoadBitmap(hInstance, 'DEFAULT');
     end;
@@ -2327,7 +2339,8 @@ begin
       PalettePage:= FPaletteList.Names[I];
       PaletteComponent := FPaletteList.ValueFromIndex[I];
 
-      if PalettePage <> '' then CreatePalettePage(PalettePage, PaletteComponent);
+      if PalettePage <> '' then
+        CreatePalettePage(PalettePage, PaletteComponent);
     end;
 
   finally
